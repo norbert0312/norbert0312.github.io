@@ -27,6 +27,7 @@ body {
 } */
 
 .photo_viewer {
+    margin-top: 20px;
     height: 450px;
     display: flex;
     align-items: center;
