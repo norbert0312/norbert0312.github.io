@@ -1,0 +1,134 @@
+.zoomBOut {
+  overflow: hidden;
+  position: relative;
+  width:  100%;
+}
+
+.head {
+  height: 400px;
+  width: 100%;
+  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  background-position: center;
+  background-size: cover;
+  transition: transform ease 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow-y: hidden;
+}
+.head:hover{
+  transform: scale(1.2);
+  overflow: hidden;
+}
+.head{
+  overflow: hidden;
+}
+
+h1, h2, blockquote {
+  margin: 0px 0px -15px 150px;
+  font-family: 'Abril Fatface', cursive;
+  color: #222222;
+  }
+h1 {
+  margin-bottom: 20px;
+}
+
+html, body {
+  width: 98%;
+  height: 100%;
+  /* overflow: hidden; */
+  padding: 0;
+  margin: 0px auto 0px;
+}
+
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #fff;  
+}
+
+.nav li {
+  list-style: none;
+  display: inline;
+}
+.menu {
+  text-align:center;
+}
+
+.nav .link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: Sans-serif;
+  color: #333;
+  margin: 0 25px;
+}
+
+.blocks {
+  min-height: 50%;
+  overflow: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 25px 100px 0px;
+  line-height: 1.6;
+  font-size: 12pt;
+}
+
+.first {
+      font-size: 14pt;
+}
+
+h1 {
+  font-size: 57px;
+}
+
+h2 
+{
+  font-size: 32px;
+}
+
+h3, h4 {
+  font-size: 19pt;
+}
+ h3 {
+  text-transform: uppercase;
+}
+
+h5  {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  margin: -40px 0px 0px;
+}
+
+.last {
+  border-top: 4px solid black;
+}
+
+blockquote {
+  position: relative;
+  margin: 30px 100px 0px;
+  padding: 50px;
+  font-size:36pt;
+  background-color: #5C5A5A;
+  color: white;
+}
+
+.firstblock {
+  margin-top: -110px;
+}
+
+blockquote::before {
+  content: '”';
+  position: absolute;
+  top: 65px;
+  font-size: 72pt;
+    transform-origin: 0 0;
+  transform: rotate(180deg);
+}
+
+ /* .blocks:nth-child(2) {
+   /*background: blue;
+}
+*/
